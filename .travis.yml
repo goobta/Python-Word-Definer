@@ -10,4 +10,4 @@ install:
 
 script:
   - sh insert_keys.sh
-  - python script.py
+  - python script_travis.py
