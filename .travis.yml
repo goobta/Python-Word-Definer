@@ -1,0 +1,14 @@
+language: python
+
+sudo: false
+
+python:
+  - "3.5"
+
+install:
+  - pip install -r requirements.txt
+
+script:
+  - sed "s/<your_app_id>/$PUBLIC/g" > script.py
+  - sed "s/<your_secret_key>/$PRIVATE/g" > script.py
+  - python script.py
