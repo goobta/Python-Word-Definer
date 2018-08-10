@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/agupta231/Python-Word-Definer.svg?branch=master)](https://travis-ci.com/agupta231/Python-Word-Definer)
 
 # Python Word Definer
-A super simple script that takes in a text file of words, and outputs a file of the word and the
+A super simple script that takes in a text file of words and outputs a file of the word and the
 definition. This script is easily expandable and the configurable delimiters make it ideal for
 services such as Quizlet. 
 
