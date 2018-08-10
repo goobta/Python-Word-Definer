@@ -28,7 +28,7 @@ I'd recommend using a virtual environment like anaconda to somewhat isolate your
 [these instructions](https://gist.github.com/agupta231/ae93aa5d7130500fbbf7910041a2bc59) to get set
 up.
 
-# A word about the 6 nested for loop and repeated single API calls
+# A word about the 6 nested for loops and repeated API calls
 Listen up bud. I wrote this script in a total of 15 minutes, including the 5 minutes that it took me
 to get the API keys. I know that if I had just done a batch call and data scrapped the output for
 the word "definition", I could have done the whole thing in `O(n)` time. Or, I could have easily
